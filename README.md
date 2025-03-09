@@ -19,10 +19,24 @@
 
 ## 使い方
 
-`./doc`参照  
+アプリ：[MultiffMaker](./bin/multiffmaker.zip)
+
+使い方：`./doc`参照  
 
 
 ## Exe化方法
+
+Nuitka2.6.7を使用してExe化しています。
+
+Nuitkaでコンパイルする場合、以下のようなコマンドで一応コンパイルできました。  
+```cmd
+nuitka --standalone --onefile --enable-plugins=numpy --enable-plugins=tk-inter module1.py
+```
+
+※Portable Python使用時  
+```
+python <Portable Pythonインストール先>\App\Python\Lib\site-packages\nuitka\__main__.py --standalone --onefile --enable-plugins=numpy --enable-plugins=tk-inter module1.py
+```
 
 
 
