@@ -1,0 +1,5 @@
+numpy==2.2.3
+pillow==11.1.0
+pyperclip==1.9.0
+tifffile==2025.2.18
+TkEasyGUI==1.0.21
